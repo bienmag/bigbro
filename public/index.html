@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <video id="root" src="video.mp4" controls></video>
-    <canvas id="canvas"></canvas>
- </body>
-</html>
 
+<body style="position: relative;">
+
+  <canvas id="canvas" style="position: absolute; top: 0; left: 0; z-index: 1;"></canvas>
+
+  <video id="root" src="video.mp4" controls style="position: absolute; top: 0; left: 0;"></video>
+
+</body>
+
+</html>
